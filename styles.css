@@ -1,4 +1,4 @@
-<-----Start with Box-sizing:box And Margin:0----->
+/* <-----Start with Box-sizing:box And Margin:0-----> */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,9 +6,11 @@
 }
 
 body {
+    
     overflow-x: hidden; /* you can instead put overflow on the body*/
     font-size:1.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
 }
 
 
@@ -107,6 +109,7 @@ li a:hover {
 .flexcontainer {
     justify-content: space-between;
     display: flex;
+    margin: 0;
 }
 
 @media (max-width: 1400px) {
@@ -128,7 +131,7 @@ section {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.5;   
 }
 
 article {
