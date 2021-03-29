@@ -1,3 +1,4 @@
+<-----Start with Box-sizing:box And Margin:0----->
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,6 +12,17 @@ body {
 }
 
 
+
+/* <-----Header------> */
+
+header {
+    background-color: purple;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, rgba(153, 0, 255, 0), rgb(155, 112, 255));
+}
+
 .logo {
     width: 100px;
     height: 100px;
@@ -21,13 +33,6 @@ body {
     }
 
 
-header {
-    background-color: purple;
-    padding-top: 20px;
-    text-align: center;
-    color: white;
-    background-image: linear-gradient(to right, rgba(153, 0, 255, 0), rgb(155, 112, 255));
-}
 
 
 /*-------------NAVIGATION-------------*/
@@ -167,7 +172,6 @@ footer{
     justify-content: space-between;
     flex-direction: column;
 }
-
 
 .socialmedianav img {
     width: 3rem;
